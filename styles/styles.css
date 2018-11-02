@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    border: 0px;
 }
 header {
     background: #2c3e52;
@@ -8,13 +9,13 @@ header {
 .menu-side-left {
     float:left;
     display: inline;
-    padding: 15px 10px;
+    padding: 10px 10px;
 }
 
 .menu-side-right{
     float: right;
     display: inline;
-    padding: 5px 10px;
+    padding: 0px 10px;
 }
 
 .menu-line-one {
@@ -23,6 +24,7 @@ header {
     width: 1180px;
     padding: 0px;
     margin: auto;
+    height: 40px;
 }
 
 .menu-line-one:after {
@@ -38,4 +40,47 @@ header {
 .menu-side-right a {
     color: white;
     text-decoration: none;
+}
+
+.second-header header {
+    background: #FFF;
+}
+
+#logo-img {
+    float:left;
+    display: inline;
+    padding: 10px 10px;
+    border: 1px solid red;
+}
+#img-search {
+    float: right;
+    list-style-type: none;
+}
+.menu-side-right-two {
+    float: right;
+    display: inline;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+
+.menu-line-two {
+    background: #FFF;
+    color: black;
+    width: 1180px;
+    padding: 0px;
+    margin: auto;
+    height: 60px;
+
+}
+
+.menu-line-two:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr {
+    color: red;
 }
