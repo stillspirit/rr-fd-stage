@@ -2,3 +2,40 @@
     margin: 0px;
     padding: 0px;
 }
+header {
+    background: #2c3e52;
+}
+.menu-side-left {
+    float:left;
+    display: inline;
+    padding: 15px 10px;
+}
+
+.menu-side-right{
+    float: right;
+    display: inline;
+    padding: 5px 10px;
+}
+
+.menu-line-one {
+    background: #2c3e52;
+    color: white;
+    width: 1180px;
+    padding: 0px;
+    margin: auto;
+}
+
+.menu-line-one:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu-side-left a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-side-right a {
+    color: white;
+    text-decoration: none;
+}
