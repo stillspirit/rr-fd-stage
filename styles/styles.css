@@ -36,7 +36,9 @@ header {
     color: white;
     text-decoration: none;
 }
-
+.menu-side-left span {
+    color: #17d6ad;
+}
 .menu-side-right a {
     color: white;
     text-decoration: none;
@@ -49,20 +51,19 @@ header {
 #logo-img {
     float:left;
     display: inline;
-    padding: 10px 10px;
-    border: 1px solid red;
+    padding: 30px 10px;
 }
 #img-search {
     float: right;
     list-style-type: none;
+    padding: 25px 0px 0px 15px;
 }
 .menu-side-right-two {
     float: right;
     display: inline;
-    padding: 10px 10px;
-    font-size: 20px;
+    padding: 40px 20px;
+    font-size: 15px;
     text-transform: uppercase;
-    vertical-align: bottom;
 }
 
 .menu-line-two {
